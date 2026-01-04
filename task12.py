@@ -1,9 +1,12 @@
-inventory = {'olma','amor','banan','nok',"o'rik"}
+inventory = {
+    'olma': 10,
+    'anor': 5,
+}
+products = ['nok','uzum'] 
+for product in products:
+    if product not in inventory:
+     inventory[product] = 0
 
-quantity = 0
 
-for i in inventory:
-    if i not in inventory:
-        quantity += 1
 
-print(quantity)
+print(inventory)

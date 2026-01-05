@@ -1,15 +1,13 @@
 def most_common_char(text: str) -> str:
     text = text.lower()
-    max_leter = text[0]
+    max_lower = text[0]
 
     for i in text:
-        if text.count(i) > text.count(max_leter):
-            max_leter = i
+        if text.count(i) > text.count(max_lower):
+            max_lower = i
 
-    return max_leter
+    return max_lower
 
-
-
-text = 'salom dunyo'
+text = 'Hello world'
 
 print(most_common_char(text=text))

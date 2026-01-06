@@ -69,7 +69,7 @@ def main() -> None:
         elif choice == "4":
             filter_gmail_contacts(contacts)
         elif choice == "5":
-            print("👋 Dasturni yakunlayapmiz. Xayr!")
+            print(" Dasturni yakunlayapmiz. Xayr!")
             break
         else:
             print("Notogri tanlov. Iltimos, 1 dan 5 gacha son kiriting.")
